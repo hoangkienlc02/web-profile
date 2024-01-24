@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Navigation */
+.inner-left {
+    display: inline-block;
+    position: fixed;
+}
+
+.inner-box-1 {
+    width: 270px;
+    height: 100vh;
+    background-color: #BD5D38;
+}
+
+.inner-left .inner-img {
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.inner-left .inner-img img {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid #dddddd2d;
+    margin-bottom: 20px;
+}
+
+.inner-left .inner-list ul {
+    text-align: center;
+    padding: 0;
+}
+.inner-left .inner-list ul li{
+    margin-bottom: 20px;
+}
+
+.inner-left .inner-list ul li a {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 18.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.inner-left .inner-list ul li a:hover {
+    color: #fda2a5;
+    transition: all 0.3s ease-in-out;
+    
+}
+/* End Navigation */
+
+/* Page Content */
+
+/* About */
+.inner-right{
+    display: inline-block;
+}
+.inner-box-2 {
+    margin-left: 270px;
+}
+.inner-right .inner-about{
+    padding: 120px 60px;
+    border-bottom: 1px solid #ddd;
+}
+.inner-right .inner-title{
+    margin-bottom: 0;
+    margin-top: 60px;
+    font-size: 90px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #343A40;
+}
+.inner-right .inner-title span{
+    color: #BD5D38;
+}
+.inner-right .inner-addr{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    color: #6C757D;
+}
+.inner-right .inner-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18.4px;
+    color: #6C757D;
+    line-height: 30px;
+    word-spacing: 1.5px;
+}
+.inner-right .inner-social ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.inner-right .inner-social ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 32px;
+    background-color: #343A40;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.inner-right .inner-social ul li a:hover{
+    color: white;
+    transition: all 0.3s ease-in-out;
+    background-color: #BD5D38;
+}
+/* End About */
+
+/* Experien */
+.inner-right .inner-exp{
+    padding: 30px 60px;
+    border-bottom: 1px solid #ddd;
+}
+.inner-right .inner-exp .inner-title{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.inner-right .inner-content{
+    display: flex;
+    margin-bottom: 50px;
+}
+.inner-right .inner-content h1{
+    font-size: 20px;
+    margin: 0;
+}
+.inner-right .inner-content .inner-text p{
+    margin: 0;
+    font-size: 16px;
+    padding-right: 100px;
+}
+.inner-right .inner-content .inner-time p{
+    margin: 0;
+    font-size: 16px;
+}
+/* End Experien */
+
+/* Education */
+.inner-right .inner-edu{
+    padding: 30px 60px;
+    border-bottom: 1px solid #ddd;
+}
+.inner-right .inner-edu .inner-title{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.inner-right .inner-img-1 img{
+    width: 120px;
+    height: 120px;
+    margin-left: 200px;
+}
+.inner-right .inner-img-2 img{
+    width: 120px;
+    height: 120px;
+    margin-left: 380px;
+}
+.inner-right .inner-edu .inner-text p{
+    font-size: 20px;
+    color: #de8360;
+}
+
+/* End Education */
+
+/* Skill */
+.inner-right .inner-skills{
+    padding: 50px 60px 100px 60px;
+    border-bottom: 1px solid #ddd;
+}
+.inner-right .inner-skills .inner-title{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.inner-right .inner-skills .inner-content{
+    margin: 0;
+}
+.inner-right .inner-skills .inner-list ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.inner-right .inner-skills .inner-list ul li{
+    font-size: 60px;
+    color: #363b40;
+    margin-right: 30px;
+}
+/* End Skill */
+/* Rank */
+.footer{
+    margin-left: 270px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #343A40;
+    color: #fff;
+    padding: 10px;
+}
+/* End Rank */
+
+/* End Page Content */
